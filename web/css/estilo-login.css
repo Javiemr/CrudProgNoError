@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+.container{
+    position: relative;
+    border-radius: 2%;
+    width: 40%;
+    height: 100%; 
+    background-color: rgba(104, 22, 84, 0);
+    padding: 3%;
+}
+
+#color{
+    background-color: white;
+}
+.contactos{
+    margin-top: -5%;
+}
+
+.fadeout {
+    animation: fadeout 5s;
+    animation-fill-mode: forwards
+  }
+@keyframes fadeout{
+    from {opacity: 1;}
+    to {opacity: 0;}
+}

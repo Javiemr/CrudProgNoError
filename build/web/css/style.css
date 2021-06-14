@@ -1,0 +1,31 @@
+
+body{
+    background-color: black;
+}
+.container{
+    position: relative;
+    border-radius: 2%;
+    width: 40%;
+    height: 100%; 
+    background-color: rgba(104, 22, 84, 0);
+    padding: 3%;
+}
+
+#color{
+    background-color: black;
+}
+.contactos{
+    margin-top: -5%;
+}
+
+.grid2col {display: grid;
+           grid-template-columns:50% 50%;
+           text-align: justify;
+}
+.col2 {
+       padding:10%;
+       border-bottom:2px solid rgb(248, 219, 125);
+  text-align: justify;
+  display: block;
+  
+}
